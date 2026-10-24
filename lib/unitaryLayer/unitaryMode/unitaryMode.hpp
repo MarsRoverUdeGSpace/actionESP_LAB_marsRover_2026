@@ -27,7 +27,14 @@ private:
     //excavadora, espectrometro, bandeja, auxiliar
     //    0,            1,          2,       3
     GENERAL_nemaDTA myNEMAdta;
-public:
+    uint8_t memoryMoveRC; //sirve para poder guardar el ultimo estado de movimiento de la robo
+    //y seguir moviendo motores modificando su velocidad cuando se presione w o s (modifica la velocidad)
+    //0 nada se mueve
+    //1 mtr1 move horario
+    //2 mtr1 move antihorario
+    //3 mtr2 move horario
+    //4 mtr2 move antihorario
+    public:
     UNITYgen();
     void setTecla();
     char getTeclaC();
@@ -44,4 +51,6 @@ public:
     void controlNEMA();//esta funcion lo unico que hace es determinar en funcion de la tecla n
     //cual es el nema actual que se desea manipular, es decir le da un estado a nemaAux, dicho estado
     //solo puede ser uno de cuatro opciones 0,1,2,3
+
+    void moveMemory();//esto manda a llamar movimientos de roboclaw en funcion de momoryMoveRC
 };

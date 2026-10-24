@@ -5,6 +5,7 @@ UNITYgen::UNITYgen(){
     omiteDefault = true;
     bndRBCLW = true;
     interVclw = 5;
+    memoryMoveRC = 0;
 }
 
 void UNITYgen::update(){
@@ -68,28 +69,34 @@ void UNITYgen::genSwitch(){
             nemaES.setStopNema(true);
             nemaBA.setStopNema(true);
             nemaAX.setStopNema(true);
+            memoryMoveRC = 0;
             Serial.println("\n\nTODO DETENIDO awevo :)\n\n");
             break;
         /// estos case son para mover los motores de la roboclaw
         case 'q'://antihorario
             exca.moveMTR1(true);
             Serial.println("moveMTR1 en true");
+            memoryMoveRC = 2;
             break;
         case 'e'://horario
             exca.moveMTR1(false);
             Serial.println("moveMTR1 en false");
+            memoryMoveRC = 1;
             break;
         case 'a'://antihorario
             exca.moveMTR2(true);
             Serial.println("moveMTR2 en true");
+            memoryMoveRC = 4;
             break;
         case 'd'://horario
             exca.moveMTR2(false);
             Serial.println("moveMTR2 en false");
+            memoryMoveRC = 3;
             break;
         case 'f':// f de freno para ambos motores de la excaRoboclaw
             exca.stop();
             Serial.println("Ambos motores claw STOP!!!");
+            memoryMoveRC = 0;
             break;
         case 'r'://cambia entre modificar la velocidad del gusano o de la broca
             bndRBCLW = !bndRBCLW;
@@ -108,6 +115,7 @@ void UNITYgen::genSwitch(){
                 exca.setVel2(aux + interVclw);
                 Serial.println("Veloidad broca = "+String(exca.getVel2()));
             }
+            moveMemory();
             break;
         case 's'://disminuye la velociad de el motor seleccionado por 's'
             if(bndRBCLW){
@@ -119,6 +127,7 @@ void UNITYgen::genSwitch(){
                 exca.setVel2(aux - interVclw);
                 Serial.println("Veloidad broca = "+String(exca.getVel2()));
             }
+            moveMemory();
             break;
 
 
@@ -417,4 +426,16 @@ void UNITYgen::controlNEMA(){
     myNEMAdta.nemaAux++;
     if(myNEMAdta.nemaAux > 3)
         myNEMAdta.nemaAux = 0;
+}
+
+//para mover en base a memory
+void UNITYgen::moveMemory(){
+    if(memoryMoveRC == 1)//horario
+        exca.moveMTR1(false);
+    else if(memoryMoveRC == 2)
+        exca.moveMTR1(true);
+    else if(memoryMoveRC == 3)
+        exca.moveMTR2(false);
+    else if(memoryMoveRC == 4)
+        exca.moveMTR2(true);
 }

@@ -8,6 +8,7 @@
         {
             "name": "PlatformIO",
             "includePath": [
+<<<<<<< HEAD
                 "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/actionESP_LAB_marsRover_2026/include",
                 "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/actionESP_LAB_marsRover_2026/src",
                 "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/actionESP_LAB_marsRover_2026/lib/ros2",
@@ -21,6 +22,21 @@
                 "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/actionESP_LAB_marsRover_2026/.pio/libdeps/esp32-s3-devkitc-1/micro_ros_platformio/libmicroros/include",
                 "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/actionESP_LAB_marsRover_2026/.pio/libdeps/esp32-s3-devkitc-1/micro_ros_platformio/platform_code",
                 "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/actionESP_LAB_marsRover_2026/.pio/libdeps/esp32-s3-devkitc-1/micro_ros_platformio/platform_code/arduino/serial",
+=======
+                "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/lab_ws/firmware/action/include",
+                "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/lab_ws/firmware/action/src",
+                "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/lab_ws/firmware/action/lib/ros2",
+                "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/lab_ws/firmware/action/lib/unitaryLayer",
+                "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/lab_ws/firmware/action/lib/halMicro",
+                "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/lab_ws/firmware/action/lib/drivers",
+                "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/lab_ws/firmware/action/.pio/libdeps/esp32-s3-devkitc-1/Adafruit NeoPixel",
+                "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/lab_ws/firmware/action/.pio/libdeps/esp32-s3-devkitc-1/roboclaw_arduino_library",
+                "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/lab_ws/firmware/action/.pio/libdeps/esp32-s3-devkitc-1/micro_ros_platformio/platform_code/arduino",
+                "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/lab_ws/firmware/action/.pio/libdeps/esp32-s3-devkitc-1/micro_ros_platformio",
+                "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/lab_ws/firmware/action/.pio/libdeps/esp32-s3-devkitc-1/micro_ros_platformio/libmicroros/include",
+                "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/lab_ws/firmware/action/.pio/libdeps/esp32-s3-devkitc-1/micro_ros_platformio/platform_code",
+                "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/lab_ws/firmware/action/.pio/libdeps/esp32-s3-devkitc-1/micro_ros_platformio/platform_code/arduino/serial",
+>>>>>>> 5676611447ceddc0bfef16eb30591227bb9b8fb5
                 "/home/eegaa/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/newlib/platform_include",
                 "/home/eegaa/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/freertos/include",
                 "/home/eegaa/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/freertos/include/esp_additions/freertos",
@@ -258,6 +274,7 @@
             "browse": {
                 "limitSymbolsToIncludedHeaders": true,
                 "path": [
+<<<<<<< HEAD
                     "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/actionESP_LAB_marsRover_2026/include",
                     "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/actionESP_LAB_marsRover_2026/src",
                     "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/actionESP_LAB_marsRover_2026/lib/ros2",
@@ -271,6 +288,21 @@
                     "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/actionESP_LAB_marsRover_2026/.pio/libdeps/esp32-s3-devkitc-1/micro_ros_platformio/libmicroros/include",
                     "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/actionESP_LAB_marsRover_2026/.pio/libdeps/esp32-s3-devkitc-1/micro_ros_platformio/platform_code",
                     "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/actionESP_LAB_marsRover_2026/.pio/libdeps/esp32-s3-devkitc-1/micro_ros_platformio/platform_code/arduino/serial",
+=======
+                    "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/lab_ws/firmware/action/include",
+                    "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/lab_ws/firmware/action/src",
+                    "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/lab_ws/firmware/action/lib/ros2",
+                    "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/lab_ws/firmware/action/lib/unitaryLayer",
+                    "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/lab_ws/firmware/action/lib/halMicro",
+                    "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/lab_ws/firmware/action/lib/drivers",
+                    "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/lab_ws/firmware/action/.pio/libdeps/esp32-s3-devkitc-1/Adafruit NeoPixel",
+                    "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/lab_ws/firmware/action/.pio/libdeps/esp32-s3-devkitc-1/roboclaw_arduino_library",
+                    "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/lab_ws/firmware/action/.pio/libdeps/esp32-s3-devkitc-1/micro_ros_platformio/platform_code/arduino",
+                    "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/lab_ws/firmware/action/.pio/libdeps/esp32-s3-devkitc-1/micro_ros_platformio",
+                    "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/lab_ws/firmware/action/.pio/libdeps/esp32-s3-devkitc-1/micro_ros_platformio/libmicroros/include",
+                    "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/lab_ws/firmware/action/.pio/libdeps/esp32-s3-devkitc-1/micro_ros_platformio/platform_code",
+                    "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/lab_ws/firmware/action/.pio/libdeps/esp32-s3-devkitc-1/micro_ros_platformio/platform_code/arduino/serial",
+>>>>>>> 5676611447ceddc0bfef16eb30591227bb9b8fb5
                     "/home/eegaa/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/newlib/platform_include",
                     "/home/eegaa/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/freertos/include",
                     "/home/eegaa/.platformio/packages/framework-arduinoespressif32/tools/sdk/esp32s3/include/freertos/include/esp_additions/freertos",

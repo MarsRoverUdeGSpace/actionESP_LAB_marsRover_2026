@@ -12,7 +12,11 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug",
+<<<<<<< HEAD
             "executable": "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/actionESP_LAB_marsRover_2026/.pio/build/esp32-s3-devkitc-1/firmware.elf",
+=======
+            "executable": "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/lab_ws/firmware/action/.pio/build/esp32-s3-devkitc-1/firmware.elf",
+>>>>>>> 5676611447ceddc0bfef16eb30591227bb9b8fb5
             "projectEnvName": "esp32-s3-devkitc-1",
             "toolchainBinDir": "/home/eegaa/.platformio/packages/toolchain-xtensa-esp32s3/bin",
             "internalConsoleOptions": "openOnSessionStart",
@@ -25,7 +29,11 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug (skip Pre-Debug)",
+<<<<<<< HEAD
             "executable": "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/actionESP_LAB_marsRover_2026/.pio/build/esp32-s3-devkitc-1/firmware.elf",
+=======
+            "executable": "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/lab_ws/firmware/action/.pio/build/esp32-s3-devkitc-1/firmware.elf",
+>>>>>>> 5676611447ceddc0bfef16eb30591227bb9b8fb5
             "projectEnvName": "esp32-s3-devkitc-1",
             "toolchainBinDir": "/home/eegaa/.platformio/packages/toolchain-xtensa-esp32s3/bin",
             "internalConsoleOptions": "openOnSessionStart"
@@ -34,7 +42,11 @@
             "type": "platformio-debug",
             "request": "launch",
             "name": "PIO Debug (without uploading)",
+<<<<<<< HEAD
             "executable": "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/actionESP_LAB_marsRover_2026/.pio/build/esp32-s3-devkitc-1/firmware.elf",
+=======
+            "executable": "/home/eegaa/UDG/UDG_Space/URC26/conROS/desarrollo/lab_ws/firmware/action/.pio/build/esp32-s3-devkitc-1/firmware.elf",
+>>>>>>> 5676611447ceddc0bfef16eb30591227bb9b8fb5
             "projectEnvName": "esp32-s3-devkitc-1",
             "toolchainBinDir": "/home/eegaa/.platformio/packages/toolchain-xtensa-esp32s3/bin",
             "internalConsoleOptions": "openOnSessionStart",
